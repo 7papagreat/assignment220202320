@@ -30,8 +30,7 @@ class Greetings extends StatelessWidget {
               width: double.infinity,
               padding: EdgeInsets.fromLTRB(30, 100, 30, 20),
               alignment: Alignment.center,
-              child: Text(
-                'welcomes you',
+              child: Text("welcomes you",
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600),
               ),
             ),
@@ -48,8 +47,7 @@ class Greetings extends StatelessWidget {
               width: double.infinity,
               padding: EdgeInsets.all(20),
               alignment: Alignment.center,
-              child: Text(
-                "Have a great journey ahead!!",
+              child: Text("Have a great journey ahead!!",
                 style: TextStyle(fontSize: 17, fontWeight: FontWeight.w600),
               ),
             ),
